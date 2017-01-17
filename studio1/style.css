@@ -61,9 +61,10 @@ section, footer {
     margin: 20px 0px 60px;
 }
 
-section div {
+section div { /*sets columns to 30%*/
     width: 33%;
     float:left;
+    background-color: red;
 }
 
 .email {
