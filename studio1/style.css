@@ -64,7 +64,6 @@ section, footer {
 section div { /*sets columns to 30%*/
     width: 33%;
     float:left;
-    background-color: red;
 }
 
 .email {
