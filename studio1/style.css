@@ -12,17 +12,19 @@ body {
     background-color: rgb(251,247,244);
     font-size: 12pt;
     line-height: 16pt;
-    color: rgb(149, 198, 226);
+}
+
+body, a{
+  color: rgb(149, 198, 226);
 }
 
 header{
     height:250px;
     margin: 80px auto 30px auto;
-    background-color: white; /*temporary*/
 }
 
 section {
-    width: 800px; /*not sure why i have to specify this again*/
+     width: 800px;
 }
 
 h1 {
@@ -36,9 +38,8 @@ h2 {
     line-height: 28pt;
 }
 
-a { /*also not sure why a isn't reached when i specified color in the body */
+a {
     text-decoration: none;
-    color: rgb(149, 198, 226);
     font-family: 'Abel', sans-serif;
 }
 
@@ -50,7 +51,7 @@ a:active {
     color: rgb(68, 102, 138);
 }
 
-.row {
+section, footer {
     clear: both;
     content: "";
     display: table;
@@ -60,7 +61,7 @@ a:active {
     margin: 20px 0px 60px;
 }
 
-.one-third {
+section div {
     width: 33%;
     float:left;
 }
